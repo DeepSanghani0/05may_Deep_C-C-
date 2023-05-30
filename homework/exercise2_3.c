@@ -13,15 +13,15 @@ scanf("%d", &x);
 printf("enter the value of y: " );
 scanf("%d", &y);
 
-x<y ? printf("smallest number is %d",x) : ("smallest number is %d",y);
+// x<y ? printf("smallest number is %d",x) : ("smallest number is %d",y);
 
                         //OR
-// if (x<y){"smallest number is %d",x)
-//  printf("smallest number is %d",x);
-// }
-// else{
-//     printf("smallest number is %d",y);
-// }
+if (x<y){
+ printf("smallest number is %d",x);
+}
+else{
+    printf("smallest number is %d",y);
+}
 
 
     return 0;
