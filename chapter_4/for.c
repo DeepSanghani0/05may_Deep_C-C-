@@ -1,9 +1,9 @@
 //print hello world 10 times using for loop
 #include<stdio.h>
 int main(){
-   for (int  i = 1; i<=5; i++)
+   for (int  i = 0; i<=10; i++)
    {
-    printf("hello world \n");
+    printf("%d \n",i);
    }
    
 return 0;

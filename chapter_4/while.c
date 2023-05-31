@@ -1,9 +1,11 @@
 #include<stdio.h>
 int main(){
- int i = 0;
- while (i<=5){
-    printf("%d \n",i);
-    i++;
+ char name='A';
+ while (name<='Z')
+ {
+   printf("%c \n",name);
+   name ++;
  }
+ 
  return 0;
 }
