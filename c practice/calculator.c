@@ -31,10 +31,10 @@ int main(){
         break;
     }
     case 4 :{
-        int a,b;
+        float a,b;
         printf("enter the value of a & b: ");
-        scanf("%d %d",&a,&b);
-        printf("division of given number is %d \n",a/b);
+        scanf("%f %f",&a,&b);
+        printf("division of given number is %f \n",a/b);
         break;
     }
     default:{
