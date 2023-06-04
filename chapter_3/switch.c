@@ -23,7 +23,7 @@ int main()
             break;
     case 7: printf("sunday \n");
             break;
-    default:printf("please enter a velid number!");
+    default:printf("please enter a valid number!");
     }
 return 0;
 }

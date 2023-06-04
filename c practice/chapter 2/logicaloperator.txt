@@ -1,0 +1,15 @@
+
+      logical And operator
+&& is indicate andoperator
+ if every statement is true then it returns true
+
+      logical or operator
+ "||" is indicates or operator
+  if one of the given statement is true then it returns true 
+
+
+        logical not operator
+    "!" i indicates not
+    ! reverse the result
+    if statement is true then it returns false. 
+    if statement is false then it returns true.
