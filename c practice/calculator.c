@@ -2,7 +2,7 @@
 #include<math.h>
 int main(){
     int calc;
-    printf("if you want to do addition press 1, substraction 2,multiply 3, devide 4: ");
+    printf("if you want to do addition press 1\n substraction 2\n multiply 3\n devide 4: ");
         // multiplication :3
         // devide :4
         // then pres number 
