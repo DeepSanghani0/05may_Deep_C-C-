@@ -5,7 +5,7 @@ int main(){
     scanf("%s",&password);
     printf("enter confirm password: ");
     scanf("%s",&confpassword);
-    if (password!=confpassword)
+    if (password==confpassword)
     {
         printf("password doesn't match");
     }
