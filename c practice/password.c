@@ -1,17 +1,19 @@
 #include<stdio.h>
 int main(){
-    char password[20],confpassword[20];
+    char password[15],confpassword[15];
+    int value;
     printf("enter new password: ");
     scanf("%s",&password);
     printf("enter confirm password: ");
     scanf("%s",&confpassword);
-    if (password==confpassword)
+    value=strcmp(password,confpassword);
+    if (value==0)
     {
-        printf("password doesn't match");
+        printf("login successful");
     }
     else
     {
-        printf("loged in");
+        printf("password doesnt match");
     }
     return 0;
 }
