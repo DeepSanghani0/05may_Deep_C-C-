@@ -3,9 +3,6 @@
 int main(){
     int calc;
     printf("if you want to do addition press 1\n substraction 2\n multiply 3\n devide 4: ");
-        // multiplication :3
-        // devide :4
-        // then pres number 
     scanf("%d",&calc);
     switch (calc)
     {

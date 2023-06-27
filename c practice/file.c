@@ -11,5 +11,3 @@ int main(){
     float n;
     printf("enter value of p,r,n : ");
 scanf("%f%f%f,&p,&r,&n");
-}
-6
