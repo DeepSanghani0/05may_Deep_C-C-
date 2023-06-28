@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(){
+   void pyramid(){
     int i,j,k;
     for (int i = 1; i < 5; i++)
     {
@@ -26,9 +26,18 @@ int main(){
         
       printf("\n");  
     }
+    }
+   int main(){
+    for (int i = 0; i < 5; i++)
+    {
+        pyramid();
+    }
+    
+    pyramid();
+return 0;
+}
+
     
 
-    return 0;
-}
 
 
