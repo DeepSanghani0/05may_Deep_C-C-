@@ -5,7 +5,6 @@ void func1(){
 void func2(){
     printf("my name is sanghani deep \n");
 }
-
 int main(){
     func1();
     func2();
