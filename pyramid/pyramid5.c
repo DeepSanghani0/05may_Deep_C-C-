@@ -9,23 +9,23 @@ int main(){
         }
         for (int j = 0; j < i; j++)
         {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
-    // for (int l = 0; l < 5; l++)
-    // {
-    //     for (int m = 0; m < l; m++)
-    //     {
-    //         printf(" ");
-    //     }
-    //     for (int n = 5; n > l; n--)
-    //     {
-    //         printf("*");
-    //     }
+    for (int l = 0; l < 5; l++)
+    {
+        for (int m = 0; m < l; m++)
+        {
+            printf(" ");
+        }
+        for (int n = 5; n > l; n--)
+        {
+            printf("* ");
+        }
         
-    //   printf("\n");  
-    // }
+      printf("\n");  
+    }
     
 
     return 0;
