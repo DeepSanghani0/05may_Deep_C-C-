@@ -12,6 +12,10 @@ int main(){
 void pyramid1(){
     for (int  i = 0; i <= 10; i++)
     {
+    for (int b = 0; b < 5; b++)
+    {
+        
+    
     
         for (int j = 0; j <= i; j++)
         {
@@ -26,25 +30,15 @@ void pyramid1(){
             printf("*");
         }
 
-        for (int n = 0; n <= i; n++)
-        {
-            printf("*");
-        }
-        for (int o = 10; o >= i; o--)
-        {
-        printf("  ");
-        }
-        for (int p = 0; p <= i; p++)
-        {
-            printf("*");
-        }
-        
+    }
         printf("\n");
     }
 }
 void pyramid2(){
     for (int i = 0; i <= 10; i++)
     {
+        for (int c = 0; c < 5; c++)
+        {
         for (int j = 10; j >= i; j--)
         {
             printf("*");
@@ -57,19 +51,7 @@ void pyramid2(){
         {
             printf("*");
         }    
-
-        for (int q = 10; q >= i; q--)
-        {
-            printf("*");
-        }
-        for (int r = 0; r <= i; r++)
-        {
-            printf("  ");
-        }
-        for (int s = 10; s >= i; s--)
-        {
-            printf("*");
-        }        
+        } 
         printf("\n");
     }
 }
