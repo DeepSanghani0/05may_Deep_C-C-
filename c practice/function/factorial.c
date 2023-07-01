@@ -1,12 +1,5 @@
 #include<stdio.h>
-int fect(int no)
-{
-    if (no <= 1)
-    {
-        return 1;
-    }
-    return no * fect(no-1);
-}
+int fect(int no);
 
 int main()
 {   
@@ -15,4 +8,14 @@ int main()
     scanf("%d",&no);
     printf("%d",fect(no));
     return 0;
+}
+
+int fect(int no)
+{
+    int a;
+    for (int i = no-1; i >= 1; i--)
+    {
+        no *= i;
+    }
+    return no;
 }
