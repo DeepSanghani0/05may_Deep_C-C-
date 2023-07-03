@@ -30,6 +30,7 @@ void pyramid1(){
             printf("*");
         }
 
+        
     }
         printf("\n");
     }
