@@ -40,6 +40,7 @@ int j()
                 
             }
              //Y
+             int j,k,l,m;
             for (int j = 0; j < 10 ; j++)
             {
                 if (i<=5 && j<=i)
@@ -64,11 +65,17 @@ int j()
             {
                 printf(" * ");
             }
+            for (int n = 0; n < i; n++)
+            {
+                printf("-");
+            }
+            for (int o = 0; o <2; o++)
+            {
+                printf("?");
+            }
             
-            
-            
-            
-                
+
+        
             printf("\n");
         }
         
