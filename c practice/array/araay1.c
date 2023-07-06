@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int i;
-    int array1[6];
+    int array1[3];
     for (int i = 0; i < 5; i++)
     {
     printf("enter the value of array[%d]",i);
