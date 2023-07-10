@@ -15,7 +15,7 @@ int main(){
     pointer1=&fname;
     pointer2=&lname;
 
-    strcat(*pointer1,*pointer2);
+    *strcat(*pointer1,*pointer2);
     fullname[40] = *pointer1;
     printf("your full name is %s",fullname);
 
