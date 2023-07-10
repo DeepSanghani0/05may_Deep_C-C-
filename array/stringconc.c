@@ -10,10 +10,10 @@ int main(){
     printf("enter your last name: ");
     scanf("%s",&lname);
     
-    *pointer1=&fname;
-    *pointer2=&lname;
+    pointer1=&fname;
+    pointer2=&lname;
 
-    strcat(pointer1,pointer2);
+    strcat(*pointer1,*pointer2);
     printf("your full name is %s",*pointer1);
     return 0;
 }
