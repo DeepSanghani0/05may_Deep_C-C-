@@ -11,6 +11,5 @@ int main(){
     {
         printf("array[%d]=%d \n",i,array1[i]);
     }
-    
     return 0;
 }
