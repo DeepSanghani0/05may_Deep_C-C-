@@ -5,16 +5,12 @@ struct studentdata
     int stdid,maths,science,sst,english,total,sum;
     float percentage;
     char stnm[20],result[20],result1[20],result2[20];
-    
 };
 int main(){
 struct studentdata stde[60];
     int i;
-        printf("enter 'pass:'");
-        scanf("%s",&stde.result1);
-        printf("enter 'fail':");
-        scanf("%s",&stde.result2);
-    for (int i = 0; i < 3; i++)
+        
+    for (int i = 0; i < 2; i++)
     {
         printf("enter your id: ");
         scanf("%d",&stde[i].stdid);
@@ -29,11 +25,14 @@ struct studentdata stde[60];
         scanf("%d",&stde[i].sst);
         printf("english: ");
         scanf("%d",&stde[i].english);
-        
+        printf("enter 'pass':");
+        scanf("%s",&stde[i].result1);
+        printf("enter'fail':");
+        scanf("%s",&stde[i].result2);   
     }
-    printf("----------------------------------------------------------------------\n");-
-    printf("|ID\t| Name\t| maths\t| scienc| sst\t|english| total | percentage| result\n");
-    for (int i = 0; i < 3; i++)
+    printf("------------------------------------------------------------------------------\n");-
+    printf("|ID\t| Name\t| maths\t|science| sst\t|english| total | percentage| result|\n");
+    for (int i = 0; i < 2; i++)
     {
         stde[i].sum=stde[i].maths + stde[i].science + stde[i].sst + stde[i].english;
         stde[i].percentage=(stde[i].sum/4);
@@ -46,9 +45,9 @@ struct studentdata stde[60];
             strcpy(stde[i].result,stde[i].result1);
         }
         
-        printf("|%d\t| %s\t| %d\t| %d\t| %d\t| %d\t| %d\t| %f | %s \n", stde[i].stdid,stde[i].stnm,stde[i].maths,stde[i].science,stde[i].sst,stde[i].english,stde[i].sum,stde[i].percentage,stde[i].result);
+        printf("|%d\t| %s\t| %d\t| %d\t| %d\t| %d\t| %d\t| %f | %s  | \n", stde[i].stdid,stde[i].stnm,stde[i].maths,stde[i].science,stde[i].sst,stde[i].english,stde[i].sum,stde[i].percentage,stde[i].result);
     }
-    printf("----------------------------------------------------------------------");
+    printf("------------------------------------------------------------------------------");
 
     return 0;
 }
