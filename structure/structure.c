@@ -31,7 +31,7 @@ struct studentdata stde[60];
         scanf("%s",&stde[i].result2);   
     }
     printf("------------------------------------------------------------------------------\n");-
-    printf("|ID\t| Name\t| maths\t|science| sst\t|english| total | percentage| result|\n");
+    printf("|ID\t| Name\t| Maths\t|Science| Sst\t|English| Total | Percentage| Result|\n");
     for (int i = 0; i < 2; i++)
     {
         stde[i].sum=stde[i].maths + stde[i].science + stde[i].sst + stde[i].english;
