@@ -13,7 +13,7 @@ scanf("%d", &length);
 printf("enter width ");
 scanf("%d",&width);
 
-printf("area is %d",length * width);
+printf("area of rectangle is %d",length * width);
 
     return 0;
 }
