@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/C Tutorials/c practice/function",
-      "program": "d:/C Tutorials/c practice/function/build/Debug/outDebug",
+      "cwd": "d:/C Tutorials",
+      "program": "d:/C Tutorials/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
