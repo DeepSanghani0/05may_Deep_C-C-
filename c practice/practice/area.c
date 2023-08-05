@@ -1,7 +1,5 @@
 //this is exercise.
 // find area of rectengle
-
-
 #include<stdio.h>
 int main() {
 int length;
